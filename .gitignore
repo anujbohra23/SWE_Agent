@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables — never commit these
+.env
+*.env
+
+# SWE-Agent sandboxes and logs
+sandboxes/
+logs/*.json
+
+# SWE-Agent FAISS / embedding cache (if added later)
+*.index
+*.faiss
+
+# Demo and test repos cloned locally
+flask_bug/
+demo_calculator/
+
+# Hugging Face model cache
+.cache/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
